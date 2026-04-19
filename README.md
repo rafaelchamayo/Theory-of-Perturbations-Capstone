@@ -23,3 +23,25 @@ for equilibrium position $x_e$, well depth $D_e$, and width $a$. To establish th
 $$E(t) = E_0 \cos(\omega t) e^{\gamma t}$$
 
 for ${\gamma > 0 }$, and the limit ${\gamma \rightarrow 0}$ is taken to recover the steady state response (and monochromatic).
+
+
+## Using UV python package manager
+
+
+Clone the repository 
+
+``` bash
+git clone git@github.com:rafaelchamayo/Theory-of-Perturbations-Capstone.git
+cd Theory-of-Perturbations-Capstone
+uv sync
+```
+
+`uv sync` will update your python environment with the dependencies (python packages you will use) specified in your pyproject.toml. If you would like to add more dependencies, run `uv add <python package name>`.
+
+Then to run any python scripts you write inside this uv managed python environment, use
+
+``` bash
+uv run <path to python script> # for example uv run python/main.py
+```
+
+
