@@ -25,6 +25,17 @@ $$E(t) = E_0 \cos(\omega t) e^{\gamma t}$$
 for ${\gamma > 0 }$, and the limit ${\gamma \rightarrow 0}$ is taken to recover the steady state response (and monochromatic).
 
 
+With the taylor expanded potential, we will :
+
+1. Derive Miller's rule by computing the first, second, and third order susceptibilities following the mathematics in the Meyer and Schindlmayr paper.
+
+2. Observe zero point deviations in the susceptibilities from the classical case 
+
+3. Analyze susceptibilities' dependence on driving frequency $\omega$ and expect no dependence of Miller's delta on frequency.
+
+4. See where the rule breaks down (deviates sufficiently far from the prediction) when taking the driving field amplitude to be larger.
+
+
 ## Using UV python package manager
 
 
